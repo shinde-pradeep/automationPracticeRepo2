@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [DemoblazeBySpringCT]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="regresssion_test1(failed)">
+    <classes>
+      <class name="com.autoPractice.POMtests.DemoblazeBySpringCTTest">
+        <methods>
+          <include name="generateReport"/>
+          <include name="closeBrowser"/>
+          <include name="collectResults"/>
+          <include name="flushResults"/>
+          <include name="test_001_loginToDemoblazeProductStore"/>
+          <include name="test_002_loginToDemoblazeProductStore"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.autoPractice.POMtests.DemoblazeBySpringCTTest -->
+    </classes>
+  </test> <!-- regresssion_test1(failed) -->
+</suite> <!-- Failed suite [DemoblazeBySpringCT] -->

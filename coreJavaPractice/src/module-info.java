@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author ershi
+ *
+ */
+module coreJavaPractice {
+}

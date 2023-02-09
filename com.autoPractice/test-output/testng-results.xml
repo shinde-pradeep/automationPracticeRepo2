@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-21T23:11:55 IST" name="DemoblazeBySpringCT" finished-at="2023-01-21T23:12:09 IST" duration-ms="13605">
+    <groups>
+    </groups>
+    <test started-at="2023-01-21T23:11:55 IST" name="regresssion_test1" finished-at="2023-01-21T23:12:09 IST" duration-ms="13605">
+      <class name="com.autoPractice.POMtests.DemoblazeBySpringCTTest">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.autoPractice.POMtests.DemoblazeBySpringCTTest@4cc451f2]" started-at="2023-01-21T23:11:55 IST" name="generateReport" finished-at="2023-01-21T23:11:56 IST" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.autoPractice.POMtests.DemoblazeBySpringCTTest@4cc451f2]" started-at="2023-01-21T23:11:56 IST" name="openBrowser" finished-at="2023-01-21T23:12:02 IST" duration-ms="6283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="test_001_loginToDemoblazeProductStore()[pri:1, instance:com.autoPractice.POMtests.DemoblazeBySpringCTTest@4cc451f2]" started-at="2023-01-21T23:12:02 IST" name="test_001_loginToDemoblazeProductStore" finished-at="2023-01-21T23:12:09 IST" duration-ms="6236" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+demoblaze product store title is correct...login successfull expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+demoblaze product store title is correct...login successfull expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.autoPractice.POMtests.DemoblazeBySpringCTTest.test_001_loginToDemoblazeProductStore(DemoblazeBySpringCTTest.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_001_loginToDemoblazeProductStore -->
+        <test-method is-config="true" signature="collectResults(org.testng.ITestResult)[pri:0, instance:com.autoPractice.POMtests.DemoblazeBySpringCTTest@4cc451f2]" started-at="2023-01-21T23:12:09 IST" name="collectResults" finished-at="2023-01-21T23:12:09 IST" duration-ms="449" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_001_loginToDemoblazeProductStore status=FAILURE method=DemoblazeBySpringCTTest.test_001_loginToDemoblazeProductStore()[pri:1, instance:com.autoPractice.POMtests.DemoblazeBySpringCTTest@4cc451f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[E:\1.auto\1.firstAutoProject\com.autoPractice\myScreenshots\test_001_loginToDemoblazeProductStore 21-12-2023 11:12:09.pdf (The filename, directory name, or volume label syntax is incorrect)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: E:\1.auto\1.firstAutoProject\com.autoPractice\myScreenshots\test_001_loginToDemoblazeProductStore 21-12-2023 11:12:09.pdf (The filename, directory name, or volume label syntax is incorrect)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
+at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
+at com.autoPractice.Utilities.Screenshots.captureScreenshot(Screenshots.java:24)
+at com.autoPractice.POMtests.DemoblazeBySpringCTTest.collectResults(DemoblazeBySpringCTTest.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectResults -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.autoPractice.POMtests.DemoblazeBySpringCTTest@4cc451f2]" started-at="2023-01-21T23:12:09 IST" name="openBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1674322929509" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="test_002_loginToDemoblazeProductStore()[pri:2, instance:com.autoPractice.POMtests.DemoblazeBySpringCTTest@4cc451f2]" started-at="2023-01-21T23:12:09 IST" name="test_002_loginToDemoblazeProductStore" finished-at="2023-01-21T23:12:09 IST" duration-ms="0" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[E:\1.auto\1.firstAutoProject\com.autoPractice\myScreenshots\test_001_loginToDemoblazeProductStore 21-12-2023 11:12:09.pdf (The filename, directory name, or volume label syntax is incorrect)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: E:\1.auto\1.firstAutoProject\com.autoPractice\myScreenshots\test_001_loginToDemoblazeProductStore 21-12-2023 11:12:09.pdf (The filename, directory name, or volume label syntax is incorrect)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
+at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
+at com.autoPractice.Utilities.Screenshots.captureScreenshot(Screenshots.java:24)
+at com.autoPractice.POMtests.DemoblazeBySpringCTTest.collectResults(DemoblazeBySpringCTTest.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_002_loginToDemoblazeProductStore -->
+        <test-method is-config="true" signature="collectResults(org.testng.ITestResult)[pri:0, instance:com.autoPractice.POMtests.DemoblazeBySpringCTTest@4cc451f2]" started-at="2023-01-21T23:12:09 IST" name="collectResults" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1674322929536" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectResults -->
+        <test-method is-config="true" signature="flushResults()[pri:0, instance:com.autoPractice.POMtests.DemoblazeBySpringCTTest@4cc451f2]" started-at="2023-01-21T23:12:09 IST" name="flushResults" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1674322929541" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushResults -->
+      </class> <!-- com.autoPractice.POMtests.DemoblazeBySpringCTTest -->
+    </test> <!-- regresssion_test1 -->
+  </suite> <!-- DemoblazeBySpringCT -->
+</testng-results>
